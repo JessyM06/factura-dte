@@ -1,0 +1,143 @@
+{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "FCF",
+    "numeroControl": "DTE-01-24383841-000000000124220",
+    "codigoGeneracion": "643EC003-D5CD-1AB1-B828-0004AC1EA976",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2024-01-13",
+    "horEmi": "11:23:05",
+    "tipoMoneda": "USD"
+  },
+  "documentoRelacionado": null,
+  "emisor": {
+    "nit": "06141511720027",
+    "nrc": "2755",
+    "nombre": "SUPER REPUESTOS EL SALVADOR, S.A. DE C.V.",
+    "codActividad": "45301",
+    "descActividad": "Venta de partes y piezas para vehiculos",
+    "nombreComercial": null,
+    "tipoEstablecimiento": "01",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "14",
+      "complemento": "BLVD.CONSTITUCIÓN #504"
+    },
+    "telefono": "78549926",
+    "correo": "FE.SRESA@SUPERREPUESTOS.COM",
+    "codEstableMH": null,
+    "codEstable": null,
+    "codPuntoVentaMH": null,
+    "codPuntoVenta": null
+  },
+  "receptor": {
+    "tipoDocumento": "13",
+    "numDocumento": "02717509-6",
+    "nrc": null,
+    "codActividad": null,
+    "descActividad": null,
+    "nombre": "MEZA GRANADINO, JULIO CESAR",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "14",
+      "complemento": "SAN SALVADOR, SAN SALVADOR"
+    },
+    "telefono": "72955161",
+    "correo": "JULIOMEZAG@YAHOO.COM"
+  },
+  "otrosDocumentos": null,
+  "ventaTercero": null,
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoItem": 1,
+      "numeroDocumento": null,
+      "codigo": "58101-3KA32",
+      "codTributo": null,
+      "descripcion": "PASTILLAS FRENO DELANTERAS",
+      "cantidad": 1,
+      "uniMedida": 59,
+      "precioUni": 28.37,
+      "montoDescu": 0,
+      "ventaNoSuj": 0,
+      "ventaExenta": 0,
+      "ventaGravada": 28.37,
+      "ivaItem": 3.26,
+      "tributos": null,
+      "psv": 0,
+      "noGravado": 0
+    },
+    {
+      "numItem": 1,
+      "tipoItem": 1,
+      "numeroDocumento": null,
+      "codigo": "58101-3KA32",
+      "codTributo": null,
+      "descripcion": "PASTILLAS FRENO TRASERAS",
+      "cantidad": 1,
+      "uniMedida": 59,
+      "precioUni": 28.37,
+      "montoDescu": 0,
+      "ventaNoSuj": 0,
+      "ventaExenta": 0,
+      "ventaGravada": 28.37,
+      "ivaItem": 3.26,
+      "tributos": null,
+      "psv": 0,
+      "noGravado": 0
+    }
+  ],
+  "resumen": {
+    "totalIva": 3.26,
+    "ivaRete1": 0,
+    "tributos": null,
+    "subTotalVentas": 28.37,
+    "descuNoSuj": 0,
+    "descuExenta": 0,
+    "descuGravada": 0,
+    "porcentajeDescuento": 0,
+    "totalDescu": 0,
+    "subTotal": 28.37,
+    "reteRenta": 0,
+    "montoTotalOperacion": 28.37,
+    "totalNoGravado": 0,
+    "totalPagar": 28.37,
+    "totalLetras": "VEINTIOCHO 37/100 DOLARES",
+    "saldoFavor": 0,
+    "condicionOperacion": 1,
+    "pagos": [
+      {
+        "codigo": "01",
+        "montoPago": 28.37,
+        "plazo": null,
+        "referencia": null,
+        "periodo": null
+      }
+    ],
+    "numPagoElectronico": null
+  },
+  "extension": {
+    "nombEntrega": null,
+    "docuEntrega": null,
+    "nombRecibe": null,
+    "docuRecibe": null,
+    "observaciones": null,
+    "placaVehiculo": null
+  },
+  "responseMH": {
+    "version": 2,
+    "ambiente": "01",
+    "versionApp": 2,
+    "estado": "PROCESADO",
+    "codigoGeneracion": "643EC003-D5CD-1AB1-B828-0004AC1EA976",
+    "numeroControl": "DTE-01-24383841-000000000124220",
+    "selloRecibido": "20247446470B3A734DA993C354E69974D437FR2P",
+    "fhProcesamiento": "13/01/2024 11:23:08",
+    "codigoMsg": "001",
+    "descripcionMsg": "RECIBIDO"
+  }
+}

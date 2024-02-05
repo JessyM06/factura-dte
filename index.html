@@ -13,71 +13,38 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
-    <style type="text/css">
-        .logo_slider .slick-slide {
-            margin: 15px;
-        }
-
-        .slick-dots li.slick-active button:before {
-            color: #0f53e6;
-        }
-
-        .slick-dots li button:before {
-            font-size: 12px;
-        }
-
-        .slick-next:before,
-        .slick-prev:before {
-            color: #0f53e6;
-            font-size: 24px;
-        }
-    </style>
 
     <title>Gammasoft</title>
 </head>
 
 <body>
-
-    <!--header-menu-->
     <header id="encabezado">
         <div class="header-content">
             <div class="logo">
-                <img src="./IMG/logo.jpeg" alt="">
+                <img src="./IMG/logo.jpeg" alt="Logo">
             </div>
-
+        
             <div class="menu" id="show-menu">
-
                 <nav id="navegacion">
                     <ul id="menu">
-                        <li><a href="#"><i class="fa-solid fa-house"></i>Inicio</a></li>
-                        <li><a href="./HTML/doc_grafico.html"><i class="fa-sharp fa-solid fa-server"></i>Documento Gráfico</a></li>
-                        <li><a href="https://webapp.dtes.mh.gob.sv/consultaPublica?ambiente=01&codGen=33066D43-1498-2094-8056-882661910410&fechaEmi=2023-09-28"><i class="fa-solid fa-pen-to-square"></i>Documento Electrónico</a></li>
-                        <li><a href="#"><i class="fa-solid fa-phone"></i>Archivo Json</a></li>
+                        <li><a href="" id="enlace_inicio"><i class="fa-solid fa-house"></i>Inicio</a></li>
+                        <li><a href="" id="enlace_pdf"><i class="fa-sharp fa-solid fa-server"></i>Documento Gráfico</a></li>
+                        <li><a href="" id="enlace_mh"><i class="fa-solid fa-pen-to-square"></i>Consulta DTE</a></li>
+                        <li><a href="" id="enlace_json"><i class="fa-solid fa-phone"></i>Visualizar DTE</a></li>
+                        <li><button id="btn_json" onclick="downloadJSON()">Descargar DTE</button></li>
                     </ul>
                 </nav>
             </div>
-
-           
         </div>
-
+        
         <div id="icon-menu">
             <i class="fa-solid fa-bars"></i>
         </div>
-
+        
     </header>
 
-    <div id="ctn-bars-search">
-        <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
-    </div>
-
-    
-
-    <div id="cover-ctn-search">
-
-    </div>
     <!--portada-->
     <div class="container-all" id="move-content">
-
         <div class="container-slider">
             <div class="slider" id="slider">
                 <div class="slider-section">
@@ -96,45 +63,27 @@
             <div class="slider-btn btn-right" id="btn-right">&#62</div>
             <div class="slider-btn btn-left" id="btn-left">&#60</div>
         </div>
+
+        <div class="container-footer">
+            <footer>
+                <div class="logo-footer">
+                    <img src="" alt="">
+                </div>
+                <div class="redes-footer">
+                    <a href="#"><i class="fa-brands fa-facebook-f btn"></i></a>
+                    <a href="#"><i class="fa-brands fa-google-plus-g btn"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram btn"></i></a>
+                </div>
+
+                <hr>
+                <h4>© 2024 Gammasoft - Todos los Derechos Reservados</h4>
+            </footer>
+        </div>
     </div>
-
-    
-
-    <div class="container-footer">
-        <footer>
-            <div class="logo-footer">
-                <img src="" alt="">
-            </div>
-
-            <div class="redes-footer">
-                <a href="#"><i class="fa-brands fa-facebook-f btn"></i></a>
-                <a href="#"><i class="fa-brands fa-google-plus-g btn"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram btn"></i></a>
-            </div>
-
-            <hr>
-            <h4>© 2022 Gammasoft - Todos los Derechos Reservados</h4>
-        </footer>
-    </div>
-
 
     <script src="../JS/script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <script>
-
-        $('.logo_slider').slick({
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            dots: true,
-            arrows: true,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            infinite: true
-        });
-
-    </script>
-
+    <script src="../JS/parametros.js"></script>
+    <script src="../JS/Descarga_Json.js"></script>
 </body>
 
 </html>
