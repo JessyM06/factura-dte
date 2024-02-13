@@ -7,9 +7,8 @@ function mostrar_menu(){
 
 }
 
-
-
 //SLIDER
+
 const slider = document.querySelector("#slider");
 let sliderSection = document.querySelectorAll(".slider-section");
 let sliderSectionLast = sliderSection[sliderSection.length -1];
@@ -55,3 +54,27 @@ setInterval(function(){
 }, 5000);
 
   
+//PDF
+
+const Documento_Grafico = () => {
+    if (typeof window.width !== "undefined") {
+        document.getElementById("descargar_pdf").click();
+        window.close();
+    }
+};
+
+function simulateNetworkRequest() {
+    return new Promise((resolve) => setTimeout(resolve, 2000));
+}
+
+const isLoading = () => {
+    if (isLoading) {
+        simulateNetworkRequest().then(() => {
+          setLoading(false);
+        });
+      };  
+}
+  
+const setLoading = () => {
+    const handleClick = () => setLoading(true);
+}

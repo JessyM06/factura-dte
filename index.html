@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <script src="https://kit.fontawesome.com/3dc0742b74.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="../CSS/fontello.css">
     <link rel="stylesheet" type="text/css" href="../CSS/stilo.css">
@@ -11,6 +12,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
 
@@ -23,15 +25,15 @@
             <div class="logo">
                 <img src="./IMG/logo.jpeg" alt="Logo">
             </div>
-        
+
             <div class="menu" id="show-menu">
                 <nav id="navegacion">
                     <ul id="menu">
-                        <li><a href="" id="enlace_inicio"><i class="fa-solid fa-house"></i>Inicio</a></li>
-                        <li><a href="" id="enlace_pdf"><i class="fa-sharp fa-solid fa-server"></i>Documento Gráfico</a></li>
-                        <li><a href="" id="enlace_mh"><i class="fa-solid fa-pen-to-square"></i>Consulta DTE</a></li>
-                        <li><a href="" id="enlace_json"><i class="fa-solid fa-phone"></i>Visualizar DTE</a></li>
-                        <li><button id="btn_json" onclick="downloadJSON()">Descargar DTE</button></li>
+                        <li><a class="enlace_menu" href="" id="enlace_inicio"><i class="fa-solid fa-house"></i>Inicio</a></li>
+                        <li><a class="enlace_menu" href="" id="enlace_pdf"><i class="fa-sharp fa-solid fa-server"></i>Documento Gráfico</a></li>
+                        <li><a class="enlace_menu" href="" id="enlace_mh"><i class="fa-solid fa-pen-to-square"></i>Consulta DTE</a></li>
+                        <li><a class="enlace_menu" href="" id="enlace_json"><i class="fa-solid fa-phone"></i>Visualizar DTE</a></li>
+                        <li><button class="enlace_menu" href="" id="btn_json" onclick="downloadJSON()">Descargar DTE</button></li>
                     </ul>
                 </nav>
             </div>
@@ -44,26 +46,28 @@
     </header>
 
     <!--portada-->
+
+    
     <div class="container-all" id="move-content">
         <div class="container-slider">
             <div class="slider" id="slider">
                 <div class="slider-section">
-                    <img src="../IMG/slider/img1.jpg" alt="" class="slider-img">
+                    <img src="../IMG/slider/img1.jpg" alt="" class="slider-img" width=100% height=100%>
                 </div>
                 <div class="slider-section">
-                    <img src="../IMG/slider/img2.jpg" alt="" class="slider-img">
+                    <img src="../IMG/slider/img2.jpg" alt="" class="slider-img" width=100% height=100%>
                 </div>
                 <div class="slider-section">
-                    <img src="../IMG/slider/img3.jpg" alt="" class="slider-img">
+                    <img src="../IMG/slider/img3.jpg" alt="" class="slider-img" width=100% height=100%>
                 </div>
                 <div class="slider-section">
-                    <img src="../IMG/slider/img4.jpg" alt="" class="slider-img">
+                    <img src="../IMG/slider/img4.jpg" alt="" class="slider-img" width=100% height=100%>
                 </div>
             </div>
             <div class="slider-btn btn-right" id="btn-right">&#62</div>
             <div class="slider-btn btn-left" id="btn-left">&#60</div>
         </div>
-
+        
         <div class="container-footer">
             <footer>
                 <div class="logo-footer">
@@ -84,6 +88,7 @@
     <script src="../JS/script.js"></script>
     <script src="../JS/parametros.js"></script>
     <script src="../JS/Descarga_Json.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
 </html>

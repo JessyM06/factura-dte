@@ -103,7 +103,7 @@ header {
 }
 
 #btn_json {
-  padding: 15px;
+  padding: 10px;
   border-radius: 30px;
   font-size: 18px;
   border: none;
@@ -149,6 +149,7 @@ header {
 .container-slider {
   width: 100%;
   max-width: 1400px;
+  height: 100%;
   margin: auto;
   margin-top: 100px;
   overflow: hidden;
@@ -161,20 +162,12 @@ header {
 .slider {
   display: flex;
   width: 400%;
-  height: 600px;
+  height: 535px;
   margin-left: -100%;
 }
 
 .slider-section {
   width: 100%;
-}
-
-
-.slider-img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .slider-btn {
@@ -202,6 +195,7 @@ header {
 
 .btn-right {
   right: 10px;
+  
 }
 
 
@@ -276,15 +270,7 @@ header {
     max-width: 1000px;
     padding: 0 20px;
   }
-
-  #ctn-bars-search,
-  #ctn-bars-search input,
-  #box-search{
-    width: 100%;
-  }
 }
-
-
 
 @media screen and (max-width: 800px) {
 
@@ -296,6 +282,14 @@ header {
     transform: translateX(300px);
   }
 
+  .container-slider {
+    display: auto;
+  }
+
+  .slider{
+    height: auto;
+  }
+  
   .menu{
     width: 0px;
     height: 100vh;
@@ -316,10 +310,7 @@ header {
 
   .menu nav ul {
     flex-direction: column;
-   
   }
-
-  
 
   .menu nav ul li{
     max-width: 200px;
@@ -327,14 +318,17 @@ header {
     justify-content: flex-start;
   }
 
-
-
   .menu nav ul li a{
     margin-top: 40px;
     color: #858585;
   }
 
-  .menu nav ul li a i {
+  .menu nav ul li button{
+    margin-top: 60px;
+    padding: 10px;
+  }
+
+  .menu nav ul li .enlace_menu{
     width: 20px;
     display: inline-block;
     margin-right: 10px;
@@ -346,4 +340,9 @@ header {
     right: 60px;
   }
 
+  .pdfview{
+    margin-top: 10%;
+  }
+
 }
+
