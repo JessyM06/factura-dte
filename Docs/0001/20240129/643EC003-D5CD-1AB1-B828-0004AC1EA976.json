@@ -1,0 +1,162 @@
+{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "01",
+    "numeroControl": "DTE-01-24383841-000000000124220",
+    "codigoGeneracion": "643EC003-D5CD-1AB1-B828-0004AC1EA976",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2024-02-13",
+    "horEmi": "22:27:34",
+    "tipoMoneda": "USD"
+  },
+  "documentoRelacionado": null,
+  "emisor": {
+    "nit": "0614-061293-102-8",
+    "nrc": "86367-0",
+    "nombre": "SAMAJULER, S.A. DE C.V.",
+    "codActividad": "46484",
+    "descActividad": "COMPRA Y VENTA DE MEDICINA EN GENERAL",
+    "nombreComercial": "POPULAR 1",
+    "tipoEstablecimiento": "01",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "14",
+      "complemento": "RESIDENCIAL LAS ROSAS CASA NO. 23, COLONIA SATELITE, SAN SALVADOR"
+    },
+    "telefono": "2445-4514",
+    "correo": "lapopular01@gmail.com",
+    "codEstableMH": null,
+    "codEstable": null,
+    "codPuntoVentaMH": null,
+    "codPuntoVenta": null
+  },
+  "receptor": {
+    "tipoDocumento": "13",
+    "numDocumento": "02717509-6",
+    "nrc": "133849-1",
+    "codActividad": "62010",
+    "descActividad": "PROGRAMACION INFORMATICA",
+    "nombre": "JULIO CESAR MEZA GRANADINO",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "14",
+      "complemento": "CALLE BUENOS AIRES URBANIZACION LA CONCORDIA CASA NO. 3 COLONIA GUATEMALA"
+    },
+    "telefono": "7295-5161",
+    "correo": "juliomezag@yahoo.com"
+  },
+  "otrosDocumentos": null,
+  "ventaTercero": null,
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoItem": 1,
+      "numeroDocumento": null,
+      "codigo": "011418215092",
+      "codTributo": null,
+      "descripcion": "ALKA GASTRIC",
+      "cantidad": 10.00,
+      "uniMedida": 59,
+      "precioUni": 4.31,
+      "montoDescu": 0,
+      "ventaNoSuj": 0,
+      "ventaExenta": 0,
+      "ventaGravada": 4.31,
+      "ivaItem": 0.56,
+      "tributos": null,
+      "psv": 0,
+      "noGravado": 0
+    },
+    {
+      "numItem": 2,
+      "tipoItem": 1,
+      "numeroDocumento": null,
+      "codigo": "011418240780",
+      "codTributo": null,
+      "descripcion": "ALKA SELTZER A-D",
+      "cantidad": 15.00,
+      "uniMedida": 59,
+      "precioUni": 2.35,
+      "montoDescu": 0,
+      "ventaNoSuj": 0,
+      "ventaExenta": 0,
+      "ventaGravada": 2.35,
+      "ivaItem": 0.31,
+      "tributos": null,
+      "psv": 0,
+      "noGravado": 0
+    },
+    {
+      "numItem": 3,
+      "tipoItem": 1,
+      "numeroDocumento": null,
+      "codigo": "011418249967",
+      "codTributo": null,
+      "descripcion": "ALKA SELTZER EXTREME",
+      "cantidad": 20.00,
+      "uniMedida": 59,
+      "precioUni": 2.98,
+      "montoDescu": 0,
+      "ventaNoSuj": 0,
+      "ventaExenta": 0,
+      "ventaGravada": 2.98,
+      "ivaItem": 0.39,
+      "tributos": null,
+      "psv": 0,
+      "noGravado": 0
+    }
+  ],
+  "resumen": {
+    "totalIva": 1.25,
+    "ivaRete1": 0,
+    "tributos": null,
+    "subTotalVentas": 10.88,
+    "descuNoSuj": 0,
+    "descuExenta": 0,
+    "descuGravada": 0,
+    "porcentajeDescuento": 0,
+    "totalDescu": 0,
+    "subTotal": 10.88,
+    "reteRenta": 0,
+    "montoTotalOperacion": 10.88,
+    "totalNoGravado": 0,
+    "totalPagar": 10.88,
+    "totalLetras": "DIEZ  88/100 ",
+    "saldoFavor": 0,
+    "condicionOperacion": 1,
+    "pagos": [
+      {
+        "codigo": "01",
+        "montoPago": 28.37,
+        "plazo": null,
+        "referencia": null,
+        "periodo": null
+      }
+    ],
+    "numPagoElectronico": null
+  },
+  "extension": {
+    "nombEntrega": null,
+    "docuEntrega": null,
+    "nombRecibe": null,
+    "docuRecibe": null,
+    "observaciones": null,
+    "placaVehiculo": null
+  },
+  "responseMH": {
+    "version": 2,
+    "ambiente": "01",
+    "versionApp": 2,
+    "estado": "PROCESADO",
+    "codigoGeneracion": "643EC003-D5CD-1AB1-B828-0004AC1EA976",
+    "numeroControl": "DTE-01-24383841-000000000124220",
+    "selloRecibido": "20247446470B3A734DA993C354E69974D437FR2P",
+    "fhProcesamiento": "13/01/2024 11:23:08",
+    "codigoMsg": "001",
+    "descripcionMsg": "RECIBIDO"
+  }
+}

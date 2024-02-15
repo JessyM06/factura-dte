@@ -102,19 +102,7 @@ header {
   display: none;
 }
 
-#btn_json {
-  padding: 10px;
-  border-radius: 30px;
-  font-size: 18px;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s;
-}
 
-#btn_json:hover {
-  background-color: #EEC759;
-  transform: scale(1.2);
-}
 
 #icon-menu{
   width: 50px;
@@ -137,7 +125,7 @@ header {
   opacity: 0.8;
 }
 
-.pdfview{
+.archivo_view{
   position: absolute;
   margin-top: 5%;
   width: 100%;
@@ -289,7 +277,7 @@ header {
   .slider{
     height: auto;
   }
-  
+
   .menu{
     width: 0px;
     height: 100vh;
@@ -321,11 +309,6 @@ header {
   .menu nav ul li a{
     margin-top: 40px;
     color: #858585;
-  }
-
-  .menu nav ul li button{
-    margin-top: 60px;
-    padding: 10px;
   }
 
   .menu nav ul li .enlace_menu{
