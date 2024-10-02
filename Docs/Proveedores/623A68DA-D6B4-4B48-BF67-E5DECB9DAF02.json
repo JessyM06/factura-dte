@@ -1,0 +1,134 @@
+{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "01",
+    "numeroControl": "DTE-01-S009P001-240000000008117",
+    "codigoGeneracion": "623A68DA-D6B4-4B48-BF67-E5DECB9DAF02",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2024-02-27",
+    "horEmi": "10:20:34",
+    "tipoMoneda": "USD"
+  },
+  "documentoRelacionado": null,
+  "emisor": {
+    "nit": "06142212650014",
+    "nrc": "4065",
+    "nombre": "Farmacia San Nicolas S.A. de C.V.",
+    "codActividad": "46491",
+    "descActividad": "Venta de productos farmacéuticos y medicinales",
+    "nombreComercial": null,
+    "tipoEstablecimiento": "01",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "14",
+      "complemento": "2º. Diag. y 23 C. Pte. Edif. Zavaleta"
+    },
+    "telefono": "22833061",
+    "correo": "medica1@sannicolas.com.sv",
+    "codEstableMH": "S009",
+    "codEstable": "S009",
+    "codPuntoVentaMH": "P001",
+    "codPuntoVenta": "P001"
+  },
+  "receptor": {
+    "tipoDocumento": "13",
+    "numDocumento": "02717509-6",
+    "nrc": null,
+    "nombre": "JULIO CESAR MEZA",
+    "codActividad": null,
+    "descActividad": null,
+    "direccion": {
+      "departamento": "06",
+      "municipio": "14",
+      "complemento": "san salvador centro"
+    },
+    "telefono": "72955161",
+    "correo": "juliomezag@yahoo.com"
+  },
+  "otrosDocumentos": null,
+  "ventaTercero": null,
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoItem": 1,
+      "numeroDocumento": null,
+      "cantidad": 1.0,
+      "codigo": "A7824",
+      "codTributo": null,
+      "uniMedida": 99,
+      "descripcion": "TROPEX GOTAS FRASCO X 10 ML",
+      "precioUni": 8.75,
+      "montoDescu": 1.58,
+      "ventaNoSuj": 0.0,
+      "ventaExenta": 0.0,
+      "ventaGravada": 7.17,
+      "tributos": null,
+      "psv": 0.0,
+      "noGravado": 0.0,
+      "ivaItem": 0.82
+    }
+  ],
+  "resumen": {
+    "totalNoSuj": 0.0,
+    "totalExenta": 0.0,
+    "totalGravada": 7.17,
+    "subTotalVentas": 7.17,
+    "descuNoSuj": 0.0,
+    "descuExenta": 0.0,
+    "descuGravada": 0.0,
+    "porcentajeDescuento": 0.0,
+    "totalDescu": 1.58,
+    "tributos": null,
+    "subTotal": 7.17,
+    "ivaRete1": 0.0,
+    "reteRenta": 0.0,
+    "montoTotalOperacion": 7.17,
+    "totalNoGravado": 0.0,
+    "totalPagar": 7.17,
+    "totalLetras": "SIETE CON 17/100 DOLARES",
+    "totalIva": 0.82,
+    "saldoFavor": 0.0,
+    "condicionOperacion": 1,
+    "pagos": [
+      {
+        "codigo": "01",
+        "montoPago": 7.17,
+        "referencia": null,
+        "plazo": null,
+        "periodo": null
+      }
+    ],
+    "numPagoElectronico": null
+  },
+  "extension": {
+    "nombEntrega": null,
+    "docuEntrega": null,
+    "nombRecibe": null,
+    "docuRecibe": null,
+    "observaciones": null,
+    "placaVehiculo": null
+  },
+  "apendice": [
+    {
+      "campo": "Forma pago",
+      "etiqueta": "Forma pago",
+      "valor": "EFECTIVO"
+    },
+    {
+      "campo": "Codigo vendedor",
+      "etiqueta": "Codigo vendedor",
+      "valor": "16809"
+    },
+    {
+      "campo": "Codigo cajero",
+      "etiqueta": "Codigo cajero",
+      "valor": "16218"
+    }
+  ],
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiJ9.ew0KICAiaWRlbnRpZmljYWNpb24iOiB7DQogICAgInZlcnNpb24iOiAxLA0KICAgICJhbWJpZW50ZSI6ICIwMSIsDQogICAgInRpcG9EdGUiOiAiMDEiLA0KICAgICJudW1lcm9Db250cm9sIjogIkRURS0wMS1TMDA5UDAwMS0yNDAwMDAwMDAwMDgxMTciLA0KICAgICJjb2RpZ29HZW5lcmFjaW9uIjogIjYyM0E2OERBLUQ2QjQtNEI0OC1CRjY3LUU1REVDQjlEQUYwMiIsDQogICAgInRpcG9Nb2RlbG8iOiAxLA0KICAgICJ0aXBvT3BlcmFjaW9uIjogMSwNCiAgICAidGlwb0NvbnRpbmdlbmNpYSI6IG51bGwsDQogICAgIm1vdGl2b0NvbnRpbiI6IG51bGwsDQogICAgImZlY0VtaSI6ICIyMDI0LTAyLTI3IiwNCiAgICAiaG9yRW1pIjogIjEwOjIwOjM0IiwNCiAgICAidGlwb01vbmVkYSI6ICJVU0QiDQogIH0sDQogICJkb2N1bWVudG9SZWxhY2lvbmFkbyI6IG51bGwsDQogICJlbWlzb3IiOiB7DQogICAgIm5pdCI6ICIwNjE0MjIxMjY1MDAxNCIsDQogICAgIm5yYyI6ICI0MDY1IiwNCiAgICAibm9tYnJlIjogIkZhcm1hY2lhIFNhbiBOaWNvbGFzIFMuQS4gZGUgQy5WLiIsDQogICAgImNvZEFjdGl2aWRhZCI6ICI0NjQ5MSIsDQogICAgImRlc2NBY3RpdmlkYWQiOiAiVmVudGEgZGUgcHJvZHVjdG9zIGZhcm1hY8OpdXRpY29zIHkgbWVkaWNpbmFsZXMiLA0KICAgICJub21icmVDb21lcmNpYWwiOiBudWxsLA0KICAgICJ0aXBvRXN0YWJsZWNpbWllbnRvIjogIjAxIiwNCiAgICAiZGlyZWNjaW9uIjogew0KICAgICAgImRlcGFydGFtZW50byI6ICIwNiIsDQogICAgICAibXVuaWNpcGlvIjogIjE0IiwNCiAgICAgICJjb21wbGVtZW50byI6ICIywrouIERpYWcuIHkgMjMgQy4gUHRlLiBFZGlmLiBaYXZhbGV0YSINCiAgICB9LA0KICAgICJ0ZWxlZm9ubyI6ICIyMjgzMzA2MSIsDQogICAgImNvcnJlbyI6ICJtZWRpY2ExQHNhbm5pY29sYXMuY29tLnN2IiwNCiAgICAiY29kRXN0YWJsZU1IIjogIlMwMDkiLA0KICAgICJjb2RFc3RhYmxlIjogIlMwMDkiLA0KICAgICJjb2RQdW50b1ZlbnRhTUgiOiAiUDAwMSIsDQogICAgImNvZFB1bnRvVmVudGEiOiAiUDAwMSINCiAgfSwNCiAgInJlY2VwdG9yIjogew0KICAgICJ0aXBvRG9jdW1lbnRvIjogIjEzIiwNCiAgICAibnVtRG9jdW1lbnRvIjogIjAyNzE3NTA5LTYiLA0KICAgICJucmMiOiBudWxsLA0KICAgICJub21icmUiOiAiSlVMSU8gQ0VTQVIgTUVaQSIsDQogICAgImNvZEFjdGl2aWRhZCI6IG51bGwsDQogICAgImRlc2NBY3RpdmlkYWQiOiBudWxsLA0KICAgICJkaXJlY2Npb24iOiB7DQogICAgICAiZGVwYXJ0YW1lbnRvIjogIjA2IiwNCiAgICAgICJtdW5pY2lwaW8iOiAiMTQiLA0KICAgICAgImNvbXBsZW1lbnRvIjogInNhbiBzYWx2YWRvciBjZW50cm8iDQogICAgfSwNCiAgICAidGVsZWZvbm8iOiAiNzI5NTUxNjEiLA0KICAgICJjb3JyZW8iOiAianVsaW9tZXphZ0B5YWhvby5jb20iDQogIH0sDQogICJvdHJvc0RvY3VtZW50b3MiOiBudWxsLA0KICAidmVudGFUZXJjZXJvIjogbnVsbCwNCiAgImN1ZXJwb0RvY3VtZW50byI6IFsNCiAgICB7DQogICAgICAibnVtSXRlbSI6IDEsDQogICAgICAidGlwb0l0ZW0iOiAxLA0KICAgICAgIm51bWVyb0RvY3VtZW50byI6IG51bGwsDQogICAgICAiY2FudGlkYWQiOiAxLjAwLA0KICAgICAgImNvZGlnbyI6ICJBNzgyNCIsDQogICAgICAiY29kVHJpYnV0byI6IG51bGwsDQogICAgICAidW5pTWVkaWRhIjogOTksDQogICAgICAiZGVzY3JpcGNpb24iOiAiVFJPUEVYIEdPVEFTIEZSQVNDTyBYIDEwIE1MIiwNCiAgICAgICJwcmVjaW9VbmkiOiA4Ljc1LA0KICAgICAgIm1vbnRvRGVzY3UiOiAxLjU4LA0KICAgICAgInZlbnRhTm9TdWoiOiAwLjAsDQogICAgICAidmVudGFFeGVudGEiOiAwLjAsDQogICAgICAidmVudGFHcmF2YWRhIjogNy4xNywNCiAgICAgICJ0cmlidXRvcyI6IG51bGwsDQogICAgICAicHN2IjogMC4wMCwNCiAgICAgICJub0dyYXZhZG8iOiAwLjAsDQogICAgICAiaXZhSXRlbSI6IDAuODINCiAgICB9DQogIF0sDQogICJyZXN1bWVuIjogew0KICAgICJ0b3RhbE5vU3VqIjogMC4wMCwNCiAgICAidG90YWxFeGVudGEiOiAwLjAwLA0KICAgICJ0b3RhbEdyYXZhZGEiOiA3LjE3LA0KICAgICJzdWJUb3RhbFZlbnRhcyI6IDcuMTcsDQogICAgImRlc2N1Tm9TdWoiOiAwLjAwLA0KICAgICJkZXNjdUV4ZW50YSI6IDAuMDAsDQogICAgImRlc2N1R3JhdmFkYSI6IDAuMDAsDQogICAgInBvcmNlbnRhamVEZXNjdWVudG8iOiAwLjAwLA0KICAgICJ0b3RhbERlc2N1IjogMS41OCwNCiAgICAidHJpYnV0b3MiOiBudWxsLA0KICAgICJzdWJUb3RhbCI6IDcuMTcsDQogICAgIml2YVJldGUxIjogMC4wLA0KICAgICJyZXRlUmVudGEiOiAwLjAwLA0KICAgICJtb250b1RvdGFsT3BlcmFjaW9uIjogNy4xNywNCiAgICAidG90YWxOb0dyYXZhZG8iOiAwLjAwLA0KICAgICJ0b3RhbFBhZ2FyIjogNy4xNywNCiAgICAidG90YWxMZXRyYXMiOiAiU0lFVEUgQ09OIDE3LzEwMCBET0xBUkVTIiwNCiAgICAidG90YWxJdmEiOiAwLjgyLA0KICAgICJzYWxkb0Zhdm9yIjogMC4wMCwNCiAgICAiY29uZGljaW9uT3BlcmFjaW9uIjogMSwNCiAgICAicGFnb3MiOiBbDQogICAgICB7DQogICAgICAgICJjb2RpZ28iOiAiMDEiLA0KICAgICAgICAibW9udG9QYWdvIjogNy4xNywNCiAgICAgICAgInJlZmVyZW5jaWEiOiBudWxsLA0KICAgICAgICAicGxhem8iOiBudWxsLA0KICAgICAgICAicGVyaW9kbyI6IG51bGwNCiAgICAgIH0NCiAgICBdLA0KICAgICJudW1QYWdvRWxlY3Ryb25pY28iOiBudWxsDQogIH0sDQogICJleHRlbnNpb24iOiB7DQogICAgIm5vbWJFbnRyZWdhIjogbnVsbCwNCiAgICAiZG9jdUVudHJlZ2EiOiBudWxsLA0KICAgICJub21iUmVjaWJlIjogbnVsbCwNCiAgICAiZG9jdVJlY2liZSI6IG51bGwsDQogICAgIm9ic2VydmFjaW9uZXMiOiBudWxsLA0KICAgICJwbGFjYVZlaGljdWxvIjogbnVsbA0KICB9LA0KICAiYXBlbmRpY2UiOiBbDQogICAgew0KICAgICAgImNhbXBvIjogIkZvcm1hIHBhZ28iLA0KICAgICAgImV0aXF1ZXRhIjogIkZvcm1hIHBhZ28iLA0KICAgICAgInZhbG9yIjogIkVGRUNUSVZPIg0KICAgIH0sDQogICAgew0KICAgICAgImNhbXBvIjogIkNvZGlnbyB2ZW5kZWRvciIsDQogICAgICAiZXRpcXVldGEiOiAiQ29kaWdvIHZlbmRlZG9yIiwNCiAgICAgICJ2YWxvciI6ICIxNjgwOSINCiAgICB9LA0KICAgIHsNCiAgICAgICJjYW1wbyI6ICJDb2RpZ28gY2FqZXJvIiwNCiAgICAgICJldGlxdWV0YSI6ICJDb2RpZ28gY2FqZXJvIiwNCiAgICAgICJ2YWxvciI6ICIxNjIxOCINCiAgICB9DQogIF0NCn0.bBchzKxwr11xTcJBpd_YhMUiw426QOhMhTgkwwcmjtlUet7MEolGRwNhZCn9YIE3DDG9Q880YxT1oNu4sIjmnzGyUpLYN2rybGqT3gXHW4wK_WbzG2nkMyXxzOPdPaUjzuyAcx_1v-kHHD2Ww_7m993vkaupGvc0GcjVccep8MqSygx9tQ66QrbaOucn0Ur-mVaog2gQJwVPED_UmIMXpEG0DfJAiTZhsP5DahPvZvlOfwUJ1I3HOdvNW_meG7B63g7U_pUAQc9PYneg0dxKU_GMLSWaRrBLe9ElncTBy3NAoC79qj8dFEFLhNT5G_7LBHInr1HS4VmHa1swgeKPUQ",
+  "selloRecibido": "202488687AF931C34459B0175CEABE1F1DBCEKHG"
+}

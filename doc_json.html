@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" type="text/css" href="../CSS/estilos.css">
+    <!-- El defer lo que hace es diferir la ejecucion del javascript hasta que haya cargado completamente el dom
+         es igual que colocar el script al final                                                             -->
+    <script defer src="../JS/mnu-titanium.js"></script>
+</head>
+<body>
+    <div>
+        <object class="pdf_view" id="enlace_json" type='application/json'></object>
+    </div>
+
+    <script type="text/javascript">
+        var url_JSON = localStorage.getItem("url_JSON_origen");
+        var componenteDiv = document.getElementById('enlace_json');
+
+        if (componenteDiv != null) {
+            componenteDiv.setAttribute('data', url_JSON);
+        } else {
+            alert("Archivo JSON No Encontrado !!!");
+        }
+    </script>
+</body>
+</html>

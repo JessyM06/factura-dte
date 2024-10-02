@@ -1,13 +1,4 @@
-document.getElementById("icon-menu").addEventListener("click", mostrar_menu);
-
-function mostrar_menu(){
-    
-    document.getElementById("move-content").classList.toggle('move-container-all');
-    document.getElementById("show-menu").classList.toggle('show-lateral');
-
-}
-
-//SLIDER
+/* CONSTRUCCION DEL SLIDER */
 
 const slider = document.querySelector("#slider");
 let sliderSection = document.querySelectorAll(".slider-section");
@@ -52,29 +43,3 @@ btnLeft.addEventListener('click', function(){
 setInterval(function(){
     Next();
 }, 5000);
-
-  
-//PDF
-
-const Documento_Grafico = () => {
-    if (typeof window.width !== "undefined") {
-        document.getElementById("descargar_pdf").click();
-        window.close();
-    }
-};
-
-function simulateNetworkRequest() {
-    return new Promise((resolve) => setTimeout(resolve, 2000));
-}
-
-const isLoading = () => {
-    if (isLoading) {
-        simulateNetworkRequest().then(() => {
-          setLoading(false);
-        });
-      };  
-}
-  
-const setLoading = () => {
-    const handleClick = () => setLoading(true);
-}
