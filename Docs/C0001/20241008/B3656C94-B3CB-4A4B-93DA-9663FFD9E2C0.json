@@ -1,0 +1,177 @@
+{
+  "identificacion": {
+    "version": 3,
+    "ambiente": "00",
+    "tipoDte": "03",
+    "numeroControl": "DTE-03-M001P001-000000000000016",
+    "codigoGeneracion": "B3656C94-B3CB-4A4B-93DA-9663FFD9E2C0",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2024-10-08",
+    "horEmi": "12:59:01",
+    "tipoMoneda": "USD"
+  },
+  "documentoRelacionado": null,
+  "otrosDocumentos": null,
+  "ventaTercero": null,
+  "emisor": {
+    "nit": "06140608881172",
+    "nrc": "3283888",
+    "nombre": "JESSICA FRANCINE PINEDA DE MEZA",
+    "codActividad": "62010",
+    "descActividad": "PROGRAMACION INFORMATICA",
+    "nombreComercial": "GAMMASOFT",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "CALLE BUENOS AIRES URB. LA CONCORDIA NO. 3 COLONIA GUATEMALA"
+    },
+    "telefono": "25641571",
+    "correo": "gammasoft.sv@gmail.com",
+    "codEstable": null,
+    "codPuntoVenta": null,
+    "codEstableMH": null,
+    "codPuntoVentaMH": null
+  },
+  "receptor": {
+    "nrc": "1885163",
+    "nombre": "MAELSA, S.A. DE C.V.",
+    "codActividad": "96092",
+    "descActividad": "SERVICIOS N.C.P.",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "14",
+      "complemento": "20 AVENIDA NORTE Y CALLE 5 DE NOVIEMBRE, DISTRITO DE SAN SALVADOR"
+    },
+    "telefono": "72955161",
+    "correo": "juliomezag@yahoo.com",
+    "nombreComercial": "MAELSA, S.A. DE C.V.",
+    "nit": "06140906081073"
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoItem": 1,
+      "cantidad": 150,
+      "codigo": "CABLE-RED-C6",
+      "uniMedida": 99,
+      "descripcion": "CABLE PARA RED CATEGORIA 6 - METRO LINEAL",
+      "precioUni": 0.8407,
+      "montoDescu": 0.0000,
+      "codTributo": null,
+      "ventaNoSuj": 0,
+      "ventaExenta": 0.0000,
+      "ventaGravada": 126.1050,
+      "tributos": [
+        "20"
+      ],
+      "psv": 0,
+      "noGravado": 0,
+      "numeroDocumento": null
+    },
+    {
+      "numItem": 2,
+      "tipoItem": 1,
+      "cantidad": 12,
+      "codigo": "RJ45-C6",
+      "uniMedida": 99,
+      "descripcion": "CONECTOR DE RED RJ45 CATEGORIA 6 - UNIDAD",
+      "precioUni": 0.3009,
+      "montoDescu": 0.0000,
+      "codTributo": null,
+      "ventaNoSuj": 0,
+      "ventaExenta": 0.0000,
+      "ventaGravada": 3.6108,
+      "tributos": [
+        "20"
+      ],
+      "psv": 0,
+      "noGravado": 0,
+      "numeroDocumento": null
+    },
+    {
+      "numItem": 3,
+      "tipoItem": 2,
+      "cantidad": 1,
+      "codigo": "0004",
+      "uniMedida": 59,
+      "descripcion": "INSTALACION Y CONFIGURACION DE RED INTERNA - CABLEADO ESTRUCTURADO DE 6 PUNTOS DE RED",
+      "precioUni": 100.0000,
+      "montoDescu": 0.0000,
+      "codTributo": null,
+      "ventaNoSuj": 0,
+      "ventaExenta": 0.0000,
+      "ventaGravada": 100.0000,
+      "tributos": [
+        "20"
+      ],
+      "psv": 0,
+      "noGravado": 0,
+      "numeroDocumento": null
+    }
+  ],
+  "resumen": {
+    "totalNoSuj": 0,
+    "totalExenta": 0,
+    "totalGravada": 229.72,
+    "subTotalVentas": 229.72,
+    "descuNoSuj": 0,
+    "descuExenta": 0,
+    "descuGravada": 0,
+    "porcentajeDescuento": 0,
+    "totalDescu": 0.00,
+    "tributos": [
+      {
+        "codigo": "20",
+        "descripcion": "IVA",
+        "valor": 29.86
+      }
+    ],
+    "subTotal": 229.72,
+    "ivaPerci1": 0,
+    "ivaRete1": 0,
+    "reteRenta": 0,
+    "montoTotalOperacion": 259.58,
+    "totalNoGravado": 0,
+    "totalPagar": 259.58,
+    "totalLetras": "DOSCIENTOS CINCUENTA Y NUEVE  58/100 DOLARES",
+    "saldoFavor": 0,
+    "condicionOperacion": 1,
+    "pagos": [
+      {
+        "codigo": "01",
+        "montoPago": 259.58,
+        "plazo": null,
+        "referencia": null,
+        "periodo": null
+      }
+    ],
+    "numPagoElectronico": null
+  },
+  "extension": null,
+  "apendice": [
+    {
+      "campo": "Apendice 1",
+      "etiqueta": "Codigo Empleado",
+      "valor": "JMeza"
+    },
+    {
+      "campo": "Apendice 2",
+      "etiqueta": "Documento Interno",
+      "valor": "CCF000000016"
+    },
+    {
+      "campo": "Apendice 3",
+      "etiqueta": "Sucursal",
+      "valor": "GAMMASOFT"
+    },
+    {
+      "campo": "Apendice 4",
+      "etiqueta": "Caja",
+      "valor": ""
+    }
+  ]
+}
